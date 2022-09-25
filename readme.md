@@ -21,7 +21,7 @@ export http_proxy=http://127.0.0.1:7890; export https_proxy=$http_proxy;
 ```bash
 cd ~/clash
 git clone https://github.com/Dreamacro/clash-dashboard
-git checkout gh-pages
+git checkout -b gh-pages origin/gh-pages
 vim config.yaml
 ```
 
