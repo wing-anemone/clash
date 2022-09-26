@@ -28,8 +28,8 @@ vim config.yaml
 you need add this to config.yaml 
 * position is between log-level and proxies
 * you must have setret line
-```bash external-controller: 7177
-external-controller: 8888
+```bash
+external-controller: ":8888"
 external-ui: clash-dashboard # clash-dashboard的路径
 setret: '12345'
 ```
